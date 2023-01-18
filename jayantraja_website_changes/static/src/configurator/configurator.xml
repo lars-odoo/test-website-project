@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates xml:space="preserve">
+
+    <t t-name="website.Configurator.WelcomeScreen.inherit.jayantraja" owl="1">
+        <div class="o_configurator_screen h-100 d-flex flex-column o_welcome_screen">
+            <div class="container-fluid pt-3 pb-2">
+                <img class="ml-lg-5" style="height: 31px; width: 99px;" src="/website/static/src/img/odoo_logo.svg" title="Odoo Logo"/>
+            </div>
+            <div class="o_configurator_screen_content d-flex h-100">
+                <div class="container align-self-center o_configurator_show">
+                    <div class="display-4 mb-2">Ready to build the<br class="d-none d-lg-inline"/>
+                        <b>perfect website?</b>
+                    </div>
+                    <div class="lead font-weight-normal mb-4 text-600">We'll set you up and running in <b>4 steps</b>
+                    </div>
+                    <button class="o_configurator_show btn btn-primary btn-lg px-4 py-2" t-on-click="goToDescription()">Let's do it</button>
+                    <span> </span>
+                        <button class="o_configurator_show btn btn-lg px-4 py-2" style="background-color: #8F8F8F; color: white;" t-on-click="skipButton()">Skip</button>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</templates>
